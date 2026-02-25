@@ -1,0 +1,481 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Greetings",
+        "Hi assistant",
+        "Hello there",
+        "Hey there",
+        "Good afternoon",
+        "Is anyone available",
+        "Hello bot",
+        "Hi travel team",
+        "Hey support",
+        "Hello travel assistant"
+      ],
+      "responses": [
+        "Hello. I am your travel assistant. How can I help you today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "Talk to you later",
+        "Thanks bye",
+        "Catch you later",
+        "Have a nice day",
+        "Thank you goodbye",
+        "I am leaving",
+        "Exit",
+        "Bye for now",
+        "See you soon",
+        "Closing chat",
+        "End conversation"
+      ],
+      "responses": [
+        "Thank you for choosing us. Have a safe journey."
+      ]
+    },
+
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you",
+        "What is your name",
+        "Are you a human",
+        "Are you a bot",
+        "Tell me about yourself",
+        "What can you do",
+        "Introduce yourself",
+        "Your name",
+        "Who am I talking to",
+        "Are you real",
+        "What is this service",
+        "Explain your service",
+        "Who created you",
+        "What do you help with",
+        "Describe yourself"
+      ],
+      "responses": [
+        "I am TravelAssist, your virtual travel and hospitality assistant."
+      ]
+    },
+
+    {
+      "tag": "book_hotel",
+      "patterns": [
+        "Book a hotel",
+        "I want to book a hotel",
+        "Reserve a room",
+        "Book accommodation",
+        "I need a hotel",
+        "Book a room for me",
+        "Hotel reservation",
+        "Find me a hotel",
+        "I want to stay somewhere",
+        "Arrange a hotel stay",
+        "Can you book a room",
+        "Reserve hotel for next week",
+        "Get me a hotel",
+        "Help me book a stay",
+        "Need room booking"
+      ],
+      "responses": [
+        "Sure. Please share your destination and travel dates."
+      ]
+    },
+
+    {
+      "tag": "check_availability",
+      "patterns": [
+        "Are rooms available",
+        "Check room availability",
+        "Is any room available",
+        "Do you have rooms left",
+        "Availability for next week",
+        "Check availability for my dates",
+        "Rooms available tomorrow",
+        "Is hotel available",
+        "Any vacancy",
+        "Can I get a room",
+        "Availability status",
+        "Check room status",
+        "Rooms free this weekend",
+        "Hotel vacancy",
+        "Is there availability"
+      ],
+      "responses": [
+        "Please provide your travel dates so I can check availability."
+      ]
+    },
+
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "Cancel my booking",
+        "I want to cancel my hotel",
+        "Cancel reservation",
+        "Cancel my trip",
+        "Cancel flight ticket",
+        "How to cancel booking",
+        "I need to cancel",
+        "Stop my reservation",
+        "Cancel confirmed booking",
+        "Withdraw my booking",
+        "Terminate my booking",
+        "Remove my reservation",
+        "Delete my booking",
+        "Cancel ticket",
+        "Cancel hotel stay"
+      ],
+      "responses": [
+        "Please provide your booking ID to process cancellation."
+      ]
+    },
+
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "Refund policy",
+        "When will I get my refund",
+        "Refund status",
+        "Money back policy",
+        "How long refund takes",
+        "Is refund possible",
+        "Refund after cancellation",
+        "Refund details",
+        "Return my money",
+        "Refund process",
+        "Refund time",
+        "How do refunds work",
+        "Refund rules",
+        "Get refund info",
+        "Explain refund policy"
+      ],
+      "responses": [
+        "Refunds are processed within 5 to 7 business days after cancellation approval."
+      ]
+    },
+
+    {
+      "tag": "travel_packages",
+      "patterns": [
+        "Suggest a package",
+        "Best holiday package",
+        "Family trip package",
+        "Honeymoon package",
+        "Budget travel package",
+        "Luxury package",
+        "Adventure tour package",
+        "Weekend trip package",
+        "Show me packages",
+        "Available travel packages",
+        "Recommend a trip",
+        "Tour packages available",
+        "Holiday offers",
+        "Vacation packages",
+        "Trip suggestions"
+      ],
+      "responses": [
+        "We offer multiple packages including beach holidays, hill stations, and international tours."
+      ]
+    },
+
+    {
+      "tag": "flight_booking",
+      "patterns": [
+        "Book a flight",
+        "Flight ticket booking",
+        "I need flight tickets",
+        "Reserve a flight",
+        "Find flights",
+        "Book airline ticket",
+        "Cheap flights",
+        "One way ticket",
+        "Round trip ticket",
+        "Flight reservation",
+        "Arrange flight",
+        "Get me a flight",
+        "Air ticket booking",
+        "Book domestic flight",
+        "International flight booking"
+      ],
+      "responses": [
+        "Please provide departure city, destination, and travel date."
+      ]
+    },
+
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "Payment methods",
+        "How can I pay",
+        "Do you accept credit card",
+        "Debit card payment",
+        "UPI payment",
+        "Net banking available",
+        "Can I use PayPal",
+        "Online payment options",
+        "EMI available",
+        "Payment options",
+        "Accepted payments",
+        "Modes of payment",
+        "How to make payment",
+        "Available payment methods",
+        "Pay through card"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, UPI, net banking, and PayPal."
+      ]
+    },
+
+    {
+      "tag": "offers",
+      "patterns": [
+        "Any offers",
+        "Current discounts",
+        "Holiday deals",
+        "Special packages",
+        "Seasonal offers",
+        "Discount on hotel",
+        "Travel deals",
+        "Promo codes",
+        "Latest offers",
+        "Cheap deals",
+        "Savings on trips",
+        "Ongoing offers",
+        "Discount available",
+        "Any coupons",
+        "Best deals"
+      ],
+      "responses": [
+        "We currently offer discounts on selected domestic and international packages."
+      ]
+    },
+
+    {
+      "tag": "transport",
+      "patterns": [
+        "Is transport included",
+        "Airport pickup available",
+        "Do you arrange transport",
+        "Travel by bus",
+        "Train booking",
+        "Car rental service",
+        "Cab service",
+        "Airport transfer",
+        "Local transport",
+        "Transportation options",
+        "Travel arrangements",
+        "Provide taxi",
+        "Do you offer cab",
+        "Transport facility",
+        "Travel transport service"
+      ],
+      "responses": [
+        "Yes, we arrange flights, trains, buses, airport pickup, and local transport."
+      ]
+    },
+
+    {
+      "tag": "visa_information",
+      "patterns": [
+        "Visa requirements",
+        "Do I need visa",
+        "Visa process",
+        "Tourist visa details",
+        "Visa documents",
+        "Visa assistance",
+        "Apply for visa",
+        "International visa",
+        "Visa charges",
+        "Visa rules",
+        "Travel visa information",
+        "Visa guidance",
+        "Visa help",
+        "Visa procedure",
+        "Explain visa requirements"
+      ],
+      "responses": [
+        "Visa requirements depend on destination and nationality. Please specify your travel country."
+      ]
+    },
+
+    {
+      "tag": "safety_guidelines",
+      "patterns": [
+        "Is it safe to travel",
+        "Travel safety rules",
+        "COVID guidelines",
+        "Health measures",
+        "Safety protocols",
+        "Is travel safe now",
+        "Government travel rules",
+        "Vaccination required",
+        "Health requirements",
+        "Travel restrictions",
+        "Safety measures",
+        "Travel safety info",
+        "Safety updates",
+        "Health travel policy",
+        "Travel safety details"
+      ],
+      "responses": [
+        "We follow all government travel guidelines to ensure passenger safety."
+      ]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": [
+        "Weather information",
+        "Temperature at destination",
+        "Best time to visit",
+        "Climate details",
+        "Is it rainy there",
+        "Weather forecast",
+        "Current weather",
+        "Season details",
+        "Climate conditions",
+        "Weather update",
+        "Temperature details",
+        "Weather report",
+        "Rain forecast",
+        "Climate update",
+        "Check weather"
+      ],
+      "responses": [
+        "Please provide the destination so I can share weather details."
+      ]
+    },
+    {
+  "tag": "provide_destination",
+  "patterns": [
+    "Goa",
+    "Kerala",
+    "Manali",
+    "Jaipur",
+    "Delhi",
+    "Mumbai",
+    "Kolkata",
+    "Bali",
+    "Dubai",
+    "Singapore",
+    "Thailand",
+    "Maldives",
+    "I want to go to Goa",
+    "Planning for Dubai",
+    "Trip to Bali"
+  ],
+  "responses": [
+    "Great choice. Please share your travel dates."
+  ]
+},
+{
+  "tag": "provide_travel_date",
+  "patterns": [
+    "Today",
+    "Tomorrow",
+    "Next week",
+    "Next month",
+    "This weekend",
+    "15th March",
+    "20th April",
+    "June",
+    "July",
+    "December",
+    "Traveling next week",
+    "Planning for June",
+    "Trip in December",
+    "Leaving tomorrow",
+    "Booking for next month"
+  ],
+  "responses": [
+    "Noted. How many travelers will be going?"
+  ]
+},
+{
+  "tag": "provide_budget",
+  "patterns": [
+    "Cheap",
+    "Budget",
+    "Low cost",
+    "Economy",
+    "Mid range",
+    "Affordable",
+    "Luxury",
+    "Premium",
+    "High budget",
+    "Under 20000",
+    "Under 50000",
+    "Under 1 lakh",
+    "Budget under 50000",
+    "Looking for cheap option",
+    "Premium package"
+  ],
+  "responses": [
+    "Understood. I will suggest options within your budget."
+  ]
+},
+{
+  "tag": "provide_travelers",
+  "patterns": [
+    "Solo",
+    "One person",
+    "Two people",
+    "Couple",
+    "Family",
+    "Friends",
+    "Group",
+    "3 people",
+    "4 people",
+    "5 people",
+    "Children",
+    "Adults",
+    "Family trip",
+    "Going with friends",
+    "Honeymoon couple"
+  ],
+  "responses": [
+    "Thank you. I am preparing suitable options for you."
+  ]
+},
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact details",
+        "Customer care number",
+        "Help desk",
+        "How to contact support",
+        "Support email",
+        "Office phone number",
+        "Talk to representative",
+        "Customer service",
+        "Support contact",
+        "Complaint number",
+        "Feedback contact",
+        "Call support",
+        "Email support",
+        "Reach customer care",
+        "Contact information"
+      ],
+      "responses": [
+        "You can contact our support team at support@travelassist.com."
+      ]
+    }
+
+  ]
+}
